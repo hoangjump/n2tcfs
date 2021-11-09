@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>THPT NGUYEN TRUNG TRUC CFS</title>
+  </head>
+  <body>
+  
+
+  <div class="content">
+    
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          
+
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              
+              <h3 class="heading mb-4">Hi bạn</h3>
+              <p>Không ai có thể biết bạn là ai ;)</p>
+				<p><a href="https://hoangjump.kol.eco/hot-deal"><button class="form-control" style="color:red" name="" id="">TOOL TÌM MÃ GIẢM GIÁ SHOPEE</button></a></p><br/>
+            </div>
+            <div class="col-md-6">
+              <script type="text/javascript">
+				var submitted=false;
+				</script>
+				<iframe id="hidden_iframe" name="hidden_iframe" onload="if(submitted)" style="display: none;"></iframe>
+				<script>
+function myFunction() {
+  alert("CẢM ƠN BẠN, CFS ĐÃ ĐƯỢC GỬI");
+}
+				</script>
+				<p style="color:black">N2T CONFESSIONS HERE</p>
+				<form action="https://docs.google.com/forms/d/184XLPtK_jl5YbWAgX7LBUhDAUTpBQTXpdBgnNGhTN-0/formResponse" method="POST" onsubmit="submitted=true;" target="hidden_iframe">
+              <form class="mb-5" method="post" id="contactForm" name="contactForm">
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input type="text" class="form-control" name="entry.1939935404" id="name" placeholder="Bí danh của bạn?">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input type="url" class="form-control" name="entry.1112481705" id="email" placeholder="Link Facebook của bạn?">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input type="text" class="form-control" name="entry.1323960165" id="subject" placeholder="Góp Ý đến Page">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <textarea class="form-control" name="entry.226378496" id="message" cols="30" rows="7" placeholder="Viết điều bạn muốn gửi" required></textarea>
+					<input type="hidden" id="ip" class="form-control" name="entry.2121269544" value="" />
+                  </div>
+                </div>  
+                <div class="row">
+                  <div class="col-12">
+                    <center><input type="submit" value="Gửi Confessions" name="submit" id="submit" class="btn btn-primary rounded-0 py-2 px-4" onclick="myFunction()"></center>
+                  <span class="submitting"></span>
+                  </div>
+                </div>
+              </form><br/>
+				<p><a href="https://m.me/n2tconfessions"><button  class="form-control" name="" id="">LIÊN HỆ</button></a></p>
+                <p><a href="https://m.me/hoangjump"><button class="form-control" name="" id="">LIÊN HỆ ADMIN</button></a></p>
+              <div id="form-message-warning mt-4"></div> 
+              <div id="form-message-success">
+                CẢM ƠN BẠN, CFS ĐÃ ĐƯỢC GỬI
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+    
+    	<script>
+            var d = new Date().toLocaleString();
+            var curl = window.location;
+            document.getElementById("datetime").value = d;
+            document.getElementById("domain").value = curl;
+            $.get("https://api.ipify.org?format=json",
+                function(data) {
+                    $("#ip").html(data.ip);
+                })
+        </script>
+        <script type="application/javascript">
+            function getIP(json) {
+                var rsip = json.ip;
+                document.getElementById("ip").value = rsip;
+            }
+        </script>
+        <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
